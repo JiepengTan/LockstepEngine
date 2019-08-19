@@ -18,7 +18,7 @@ Demo's link: [https://github.com/JiepengTan/LockstepEngine_ARPGDemo][17]
 - new NetworkLib is Comefrom ET 3.0 [https://github.com/egametang/ET][16]
 - Libs all_in_one [https://github.com/JiepengTan/LockstepEngine][11]
 
-Setup Video link: [https://www.bilibili.com/video/av55450233][15] 
+Setup Video link: [https://www.bilibili.com/video/av64460304/][15] 
 
 
  [1]: https://github.com/proepkes/UnityLockstep
