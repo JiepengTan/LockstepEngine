@@ -2,8 +2,8 @@
  
 #### **Tutorial** 
 
-[Tutorial Project][10][https://github.com/JiepengTan/Lockstep-Tutorial][10]
-[Tutorial Video (Chinese)][11]
+- [Tutorial Project][10][https://github.com/JiepengTan/Lockstep-Tutorial][10]
+- [Tutorial Video (Chinese)][11]
 
 #### **ARPG Demo** 
 <p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/LockstepPlatform/LPD_11_Network.gif?raw=true" width="512"/></p>
