@@ -1,0 +1,29 @@
+{
+  "GenInfos": [
+    {
+      "__Comment": "NetMsg.Commons",
+      "DllRelPath": "",
+      "ProjectFilePath": "",
+      "NameSpace": "NetMsg.Common",
+      "GeneratePath": "../../../../LockstepEngine/NetMsg.Common/Src/",
+      "GenerateFileName": "ExtensionMsg.cs",
+      "InterfaceName": "IBaseMsg",
+      "IgnoreTypeAttriName": "SelfImplementAttribute",
+      "IgnoreFiledAttriName": "NoGenCodeAttribute",
+      "ForceGenAttriName": "",
+      "TypeHandlerConfigPath": "../CodeGenerator/TypeHandler/Msg.json"
+    },{
+      "__Comment": "Backup",
+      "DllRelPath": "",
+      "ProjectFilePath": "",
+      "NameSpace": "Lockstep.Game",
+      "GeneratePath": "../../../../Scripts/Logic/Backup/Ext/",
+      "GenerateFileName": "ExtensionBackup.cs",
+      "InterfaceName": "INeedBackup",
+      "IgnoreTypeAttriName": "NoBackupAttribute;SelfImplementAttribute",
+      "IgnoreFiledAttriName": "ReRefBackupAttribute;NoBackupAttribute",
+      "ForceGenAttriName": "BackupAttribute",      
+      "TypeHandlerConfigPath": "../CodeGenerator/TypeHandler/Backup.json"
+    }
+  ]
+}

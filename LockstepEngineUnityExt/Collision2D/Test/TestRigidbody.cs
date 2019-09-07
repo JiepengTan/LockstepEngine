@@ -1,4 +1,4 @@
-using Lockstep.Logic;
+using Lockstep.Game;
 using Lockstep.Math;
 using UnityEngine;
 
@@ -18,7 +18,7 @@ namespace Lockstep.Collision2D {
             CRigidbody = new CRigidbody();
             CTransform2D = new CTransform2D();
             CTransform2D.Pos3 = transform.position.ToLVector3();
-            CRigidbody.transform2D = CTransform2D;
+            CRigidbody.BindRef(CTransform2D); 
             CRigidbody.DoStart();
         }
 

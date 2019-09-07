@@ -13,10 +13,9 @@
         public const int MAX_FRAME_DATA_DELAY = MAX_DELAY_TIME_MS + NORMAL_PLAYER_MAX_DELAY + 2 * UPDATE_DELTATIME;
 
         /// 帧率
-        public const int FRAME_RATE = 60;
-
-        /// 每帧时间 (60帧) 
-        public const int UPDATE_DELTATIME = 1000 / FRAME_RATE;
+        public const int FRAME_RATE = 33;
+        
+        public const int UPDATE_DELTATIME = 30;
 
         public const string NetKey = "LockstepPlatform";
     }

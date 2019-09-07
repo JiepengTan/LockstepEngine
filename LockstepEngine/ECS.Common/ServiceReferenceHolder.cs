@@ -15,12 +15,14 @@ namespace Lockstep.Game {
         protected IResService _resService;
         protected IEffectService _effectService;
         protected IEventRegisterService _eventRegisterService;
-
+        protected IIdService _idService;
+        protected ICommonStateService _commonStateService;
+        
         protected T GetService<T>() where T : IService{
             return _serviceContainer.GetService<T>();
         }
 
-        public virtual void InitReference(IServiceContainer serviceContainer){
+        public virtual void InitReference(IServiceContainer serviceContainer,IManagerContainer mgrContainer){
             _serviceContainer = serviceContainer;
             //通用Service
             _ecsFacadeService = serviceContainer.GetService<IECSFacadeService>();
@@ -34,6 +36,8 @@ namespace Lockstep.Game {
             _resService = serviceContainer.GetService<IResService>();
             _effectService = serviceContainer.GetService<IEffectService>();
             _eventRegisterService = serviceContainer.GetService<IEventRegisterService>();
+            _idService = serviceContainer.GetService<IIdService>();
+            _commonStateService = serviceContainer.GetService<ICommonStateService>();
             
         }
     }

@@ -31,11 +31,7 @@ namespace Lockstep.Collision2D {
         public float percent = 0.1f;
         public int count = 100;
 
-        public int[][] InterestingMasks = new int[][] {
-            new int[] { },
-            new int[] { },
-            new int[] {0, 1}
-        };
+        public bool[] InterestingMasks;
 
         private int[] allTypes = new int[] {0, 1, 2};
 
@@ -123,9 +119,6 @@ namespace Lockstep.Collision2D {
 
             var proxy = new ColliderProxy();
             proxy.Init(prefab, obj.transform.position.ToLVector2XZ());
-#if UNITY_EDITOR
-            proxy.UnityTransform = obj.transform;
-#endif
             if (!isStatic) {
                 var mover = obj.gameObject.AddComponent<RandomMove>();
                 mover.halfworldSize = halfworldSize;
