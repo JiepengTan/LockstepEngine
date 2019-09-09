@@ -28,12 +28,6 @@ Setup Video link: [https://www.bilibili.com/video/av64460304/][15]
 - 帧同步技术交流  839944367
 - 本项目脱胎于[https://github.com/JiepengTan/LockstepPlatform][22](但不再维护)
 
-#### **赞助** 
-- 如果你觉得框架对你很有帮助，可以请我喝杯奶茶
-- 你的赞助将出现在感谢名单，当然害羞的话也可以选择匿名，在备注中说一下就好
-
-
-<p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/LockstepTutorial/WXMoney.png?raw=true" width="256"/></p>
 
  [1]: https://github.com/proepkes/UnityLockstep
  [2]: https://github.com/RevenantX/LiteNetLib
