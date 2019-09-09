@@ -11,7 +11,7 @@ namespace Lockstep.Collision2D {
     public partial class ColliderProxy : ILPCollisionEventHandler, ILPTriggerEventHandler {
         public object EntityObject;
 #if UNITY_EDITOR
-        public Transform UnityTransform => (EntityObject as BaseEntity)?.engineTransform as Transform;
+        public Transform UnityTransform ;//=> (EntityObject as BaseEntity)?.engineTransform as Transform;
 #endif
         public int Id;
         public int LayerType { get; set; }

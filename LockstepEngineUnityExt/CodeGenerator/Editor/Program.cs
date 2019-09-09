@@ -68,7 +68,7 @@ namespace Lockstep.CodeGenerator {
     public static class EditorCodeGen {
         [MenuItem("LPEngine/CodeGen")]
         static void CodeGen(){
-            Lockstep.Logging.Logger.OnMessage += UnityLogHandler.OnLog;
+            //Lockstep.Logging.Logger.OnMessage += UnityLogHandler.OnLog;
             var config = Resources.Load<CodeGenConfig>("CodeGenerator/CodeGenConfig");
             Define.RelPath = config.relPath;
             var path = Define.BaseDirectory;

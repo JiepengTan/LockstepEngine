@@ -239,9 +239,6 @@ namespace Lockstep.CodeGenerator {
         }
 
         string GetFiledInfo(Type type, IFiledHandler Handler){
-            if (type == typeof(Lockstep.Game.CAnimator)) {
-                int iss = 0;
-            }
 
             var fileds = FilterFields(type.GetFields(FiledBindingAttr));
             var properties = FilterProperties(type.GetProperties(PropertyBindingAttr));
