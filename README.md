@@ -26,6 +26,7 @@ Setup Video link: [https://www.bilibili.com/video/av64460304/][15]
 
 #### **QQ 群：** 
 - 帧同步技术交流  839944367
+- 本项目脱胎于[https://github.com/JiepengTan/LockstepPlatform][22](但不再维护)
 
  [1]: https://github.com/proepkes/UnityLockstep
  [2]: https://github.com/RevenantX/LiteNetLib
@@ -48,3 +49,4 @@ Setup Video link: [https://www.bilibili.com/video/av64460304/][15]
  [19]: https://github.com/JiepengTan/LockstepEngine_ARPGDemo
  [20]: https://github.com/JiepengTan/Lockstep-Tutorial
  [21]: https://space.bilibili.com/308864667/channel/detail?cid=86562
+ [22]: https://github.com/JiepengTan/LockstepPlatform
