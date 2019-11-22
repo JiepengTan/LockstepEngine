@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+dir="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+cd $dir/
+pwd
+
+find  ./Engine.Editor/ -name '*.meta' -type f | xargs  rm -f
+find  ./Engine.View/ -name '*.meta' -type f | xargs  rm -f
+find  ./Engine.LockstepEngine/ -name '*.meta' -type f | xargs  rm -f
+rm -rf ./Test.Unity/Assets/*
+cp -rf ./Engine.Editor ./Test.Unity/Assets/
+cp -rf ./Engine.View ./Test.Unity/Assets/
+cp -rf ./Engine.LockstepEngine ./Test.Unity/Assets/

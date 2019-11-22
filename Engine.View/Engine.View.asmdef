@@ -1,0 +1,6 @@
+{
+    "name": "Engine.View",
+    "references": [
+        "Engine.LockstepEngine"
+    ]
+}

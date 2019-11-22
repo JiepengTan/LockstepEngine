@@ -1,0 +1,15 @@
+{
+    "name": "Engine.Editor",  
+    "references": [
+        "Engine.LockstepEngine",
+        "Engine.View",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Burst"
+    ],
+    "allowUnsafeCode": true
+}

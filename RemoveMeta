@@ -1,6 +1,0 @@
-#!/bin/bash
-clear
-dir="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
-cd $dir
-
-find  ./LockstepEngine/ -name '*.meta' -type f | xargs  rm -f
