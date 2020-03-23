@@ -5,11 +5,6 @@
 - [Tutorial Project   ][20][https://github.com/JiepengTan/Lockstep-Tutorial][20]
 - [Tutorial Video (Chinese)][21]
 
-#### **ARPG Demo** 
-<p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/LockstepPlatform/LPD_11_Network.gif?raw=true" width="512"/></p>
-
-Demo's link: [https://github.com/JiepengTan/LockstepEngine_ARPGDemo][17]
-
 #### **References：** 
 - ECS prototype UnityLockstep:[https://github.com/proepkes/UnityLockstep][1] 
 - Network library: LiteNetLib: [https://github.com/RevenantX/LiteNetLib][2] (v0.8.3 .NetCore)
@@ -23,10 +18,6 @@ Demo's link: [https://github.com/JiepengTan/LockstepEngine_ARPGDemo][17]
 - Libs all_in_one [https://github.com/JiepengTan/LockstepEngine][11]
 
 Setup Video link: [https://www.bilibili.com/video/av64460304/][15] 
-
-#### **QQ 群：** 
-- 帧同步技术交流  839944367
-- 本项目脱胎于[https://github.com/JiepengTan/LockstepPlatform][22](但不再维护)
 
 
  [1]: https://github.com/proepkes/UnityLockstep
@@ -49,5 +40,5 @@ Setup Video link: [https://www.bilibili.com/video/av64460304/][15]
  [18]: https://github.com/JiepengTan/LockstepEngine_ARPGDemo
  [19]: https://github.com/JiepengTan/LockstepEngine_ARPGDemo
  [20]: https://github.com/JiepengTan/Lockstep-Tutorial
- [21]: https://space.bilibili.com/308864667/channel/detail?cid=86562
+ [21]: https://www.bilibili.com/video/av70422751/
  [22]: https://github.com/JiepengTan/LockstepPlatform
